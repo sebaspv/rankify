@@ -12,6 +12,10 @@ body{
   font-family:Poppins;
 }
 
+.bg{
+  height:450px;
+  width:450px;
+}
 .navo{
   display:inline-block;
   position:relative;
