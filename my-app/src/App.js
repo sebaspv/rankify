@@ -7,10 +7,10 @@ import Form from './form.js'
 function App() {
   return (
     <div className="App">
-      <div class="headerr">
+      <div className="headerr">
       <img src={logo} className="App-logo" alt="logo" />
-      <p class="navo">About us</p>
-      <p class="navo">How It Works</p>
+      <p className="navo">About us</p>
+      <p className="navo">How It Works</p>
       </div>
       <div className="fade-in">
       <img src={home} className="bg"  alt="logo" />
