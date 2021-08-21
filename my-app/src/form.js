@@ -2,11 +2,16 @@ import React from 'react'
 import './App.css'
 
 function Form(){
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
     return(
     <div class="container">
       <div class="button-wrap">
-        <label class="button" for="upload">Upload File</label>
-        <input id="upload" type="file"/>
+        <form>
+        <input type="text" placeholder="Put the link to your image here!" id="upload"/>
+        <input type="submit" value="Upload File" class="button" onClick={handleSubmit}/>
+        </form>
       </div>
     </div>
     )
