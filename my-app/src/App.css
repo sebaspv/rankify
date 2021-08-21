@@ -3,51 +3,26 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  position:relative;
+  right:925px;
+  height: 5vmin;
   pointer-events: none;
 }
 body{
   font-family:Poppins;
 }
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.header{
+  
 }
-
-.App-header {
-  justify-content:center;
-  background-color: #fff;
-  min-height: 100vh;
-  display: flex;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-
 
 .fade-in {
   position:relative;
-  bottom:550px;
-  animation: fadeIn ease-in 1s;
-  -webkit-animation: fadeIn ease-in 1s;
-  -moz-animation: fadeIn ease-in 1s;
-  -o-animation: fadeIn ease-in 1s;
-  -ms-animation: fadeIn ease-in 1s;
+  animation: fadeIn ease-in-out 1s;
+  -webkit-animation: fadeIn ease-in-out 1s;
+  -moz-animation: fadeIn ease-in-out 1s;
+  -o-animation: fadeIn ease-in-out 1s;
+  -ms-animation: fadeIn ease-in-out 1s;
 }
 
 
@@ -104,7 +79,7 @@ body{
 }
 .container {
   position:relative;
-  bottom:540px;
+  bottom:10px;
   display:flex;
   justify-content:center;
   width: 100%;
@@ -125,8 +100,10 @@ input[type="file"] {
   display: inline-block;
   padding: 12px 18px;
   cursor: pointer;
-  border-radius: 5px;
-  background-color: #8ebf42;
+  border-radius: 25px;
+  background: -webkit-linear-gradient(to right, #8500ff, #ff8100);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8500ff, #ff8100); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   font-size: 16px;
   font-weight: bold;
   color: #fff;
