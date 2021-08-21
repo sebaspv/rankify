@@ -106,6 +106,16 @@ input[type="file"] {
 .button-wrap {
   position: relative;
 }
+#upload{
+  border: 1px solid red;
+  border-radius:24px;
+  width:200px;
+  height:30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+ #upload:focus{
+    outline: none !important;
+ }
 .button {
   border:none;
   outline:none;
