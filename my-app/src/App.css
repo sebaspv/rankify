@@ -4,7 +4,7 @@
 
 .App-logo {
   position:relative;
-  right:925px;
+  right:810px;
   height: 5vmin;
   pointer-events: none;
 }
@@ -12,8 +12,14 @@ body{
   font-family:Poppins;
 }
 
-.header{
-  
+.navo{
+  display:inline-block;
+  position:relative;
+  left:790px;
+  margin-left:30px;
+}
+.navo:hover{
+  color:blue;
 }
 
 .fade-in {
