@@ -38,7 +38,7 @@ npm install
 npm start
 ```
 
-video: https://youtu.be/7tBD_vH8Iok
+video: https://youtu.be/sZMRW4Ll440
 
 Have any features you'd like? Feel Free to let us know!
 
