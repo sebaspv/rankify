@@ -28,7 +28,7 @@ We wanted to dive deep into the intersection of entrepeneurship and tech, and we
 Clone the repo
 
 ```sh
-git clone https://github.com/sebaspv/logo-rating
+git clone https://github.com/sebaspv/logo-rating/tree/main/my-app
 ```
 
 Install NPM packages+start!
