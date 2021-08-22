@@ -3,18 +3,19 @@ import './App.css'
 
 function handleSubmit(e) {
   e.preventDefault();
-  console.log()
-
   localStorage.setItem('img', document.getElementById('upload').value);
-  console.log(document.getElementById('upload').value);
   document.getElementById('upload').value=" ";
+  document.getElementById("confirmation").style.color='#15735A';
+  document.getElementById("confirmation").innerText="Image received! Our machine learning models are analyzing your logo, prepare to see some insights in seconds!"
+
 }
 function Form(){
     return(
+
     <div class="container">
       <div class="button-wrap">
         <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Put the link to your image here!" id="upload"/>
+        <input type="text" class="button" placeholder="Paste your Image Url!" id="upload"/>
         </form>
       </div>
     </div>

@@ -4,9 +4,10 @@
 
 .App-logo {
   position:relative;
-  right:810px;
+  right:770px;
   height: 5vmin;
   pointer-events: none;
+  display:inline-block;
 }
 body{
   font-family:Poppins;
@@ -19,7 +20,7 @@ body{
 .navo{
   display:inline-block;
   position:relative;
-  left:790px;
+  left:770px;
   margin-left:30px;
 }
 .navo:hover{
@@ -111,11 +112,57 @@ input[type="file"] {
   border-radius:24px;
   width:200px;
   height:30px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  color:black;
 }
  #upload:focus{
     outline: none !important;
  }
+ .radar{
+   position:relative;
+   top:60px;
+   left:630px;
+
+   height:640px;
+   width:640px;
+ }
+ .file-upload {
+  display: inline-flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.file-upload__input {
+  display: none;
+}
+
+.file-upload__button {
+  -webkit-appearance: none;
+  background: #009879;
+  border: 2px solid #00745d;
+  border-radius: 4px;
+  outline: none;
+  padding: 0.5em 0.8em;
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.file-upload__button:active {
+  background: #00745d;
+}
+
+.file-upload__label {
+  max-width: 250px;
+  font-size: 0.95em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: "Quicksand", sans-serif;
+}
+
 .button {
   border:none;
   outline:none;
@@ -123,14 +170,17 @@ input[type="file"] {
   padding: 12px 18px;
   cursor: pointer;
   border-radius: 25px;
-  background: -webkit-linear-gradient(to right, #8500ff, #ff8100);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #8500ff, #ff8100); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
   font-size: 16px;
   font-weight: bold;
   color: #fff;
+  font-family:poppins;
 }
-.button:hover{
+.button::-ms-input-placeholder{
+  color:black;
+}
+
+
+.button:focus{
   -webkit-box-shadow: 0px 20px 35px -16px rgba(0, 111, 255, 0.65);
   -moz-box-shadow: 0px 20px 35px -16px rgba(0, 111, 255, 0.65);
   box-shadow: 0px 20px 35px -16px rgba(0, 111, 255, 0.65);
@@ -139,7 +189,7 @@ input[type="file"] {
 }
 
 h1{
-  font-size:60px;
+  font-size:65px;
   background-image: linear-gradient(60deg, #8500ff, #ff8100);
         color: black;
         -webkit-text-fill-color: transparent;
