@@ -3,7 +3,7 @@
 
 
 
-Rankify is a computer vision powered web application to grade logos based on graphic design principles, and industry analysis
+Rankify is a computer vision powered web application to grade logos based on graphic design principles, and industry analysis.
 
 ## Features
 
